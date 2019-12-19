@@ -1,19 +1,61 @@
+body {
+  font-family: "Rubik", sans-serif;
+}
+
 #pricing,
 #services {
-  background-color: lightgreen;
+  background-color: #1ee688;
   margin: 2em 0;
   padding: 2em 0;
 }
 
-.card-text,
-.card-title,
-.blockquote,
-.blockquote-footer {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+.navbar-color,
+.jumbotron {
+  background-color: #16a662;
 }
 
-/* Testimonial CSS */
+.blockquote,
+.blockquote-footer {
+  font-family: "Pacifico", cursive;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
 
 .nav-link {
-  color: rgb(45, 248, 55);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.quote {
+  text-align: center;
+  color: #0c5935;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.btn {
+  background-color: #16a662;
+  color: white;
+}
+
+.btn:hover {
+  color: #16a662;
+  background-color: #fff;
+  outline: #16a662;
+}
+
+.footer {
+  text-align: center;
+  background-color: #16a662;
+  color: white;
+  padding: 2rem;
+}
+
+a {
+  color: white;
 }

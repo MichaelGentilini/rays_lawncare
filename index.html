@@ -11,6 +11,10 @@
       crossorigin="anonymous"
     />
     <link
+      href="https://fonts.googleapis.com/css?family=Pacifico|Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
     />
@@ -18,7 +22,7 @@
     <title>Rays Lawn Care</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light text-success">
+    <nav class="navbar navbar-expand-lg navbar-color">
       <div class="container">
         <a class="navbar-brand" href="#">Rays Lawn Care</a>
         <button
@@ -42,13 +46,10 @@
               <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Coverage</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Testimonials</a>
+              <a class="nav-link" href="#coverage">Coverage</a>
             </li>
           </ul>
         </div>
@@ -58,18 +59,20 @@
     <!-- Mission statement  -->
     <div class="container mt-5">
       <section class="mission">
-        <div class="card px-3">
-          <blockquote class="blockquote">
-            <p class="px-3">
-              <em>
-                "Whatever you do, work at it with your whole being, for the Lord
-                and not for men, because you know that you will receive an
-                inheritance from the Lord as your reward. It is the Lord Christ
-                you are serving."</em
-              >
-            </p>
-            <footer class="blockquote-footer">Colossians 3:23</footer>
-          </blockquote>
+        <div class="jumbotron">
+          <div class="card px-3">
+            <blockquote class="blockquote">
+              <p class="py-2">
+                <em>
+                  "Whatever you do, work at it with your whole being, for the
+                  Lord and not for men, because you know that you will receive
+                  an inheritance from the Lord as your reward. It is the Lord
+                  Christ you are serving."</em
+                >
+              </p>
+              <footer class="blockquote-footer">Colossians 3:23</footer>
+            </blockquote>
+          </div>
         </div>
       </section>
     </div>
@@ -285,6 +288,58 @@
       </div>
     </section>
 
+    <!-- Contact Form  -->
+    <section id="contact">
+      <div class="container">
+        <p class="quote">Request a Free Quote</p>
+        <form class="mb-5">
+          <div class="form-group">
+            <label for="clientName">Name</label>
+            <input type="text" class="form-control" id="clientName" />
+          </div>
+          <div class="form-group">
+            <label for="clientAddress">Address</label>
+            <input type="text" class="form-control" id="clientAddress" />
+          </div>
+          <div class="form-group">
+            <label for="clientEmail">Email address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="clientEmail"
+              placeholder="name@example.com"
+            />
+            <div class="form-group">
+              <label for="clientSiteSize">Approximate Site Size </label>
+              <input type="text" class="form-control" id="clientSiteSize" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Frequency</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Weekly</option>
+              <option>Bi Weekly</option>
+              <option>Monthly</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Other Information</label>
+            <textarea
+              class="form-control"
+              id="clientOtherInfo"
+              rows="3"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <p>Conctact me at 555-555-5555</p>
+    </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
